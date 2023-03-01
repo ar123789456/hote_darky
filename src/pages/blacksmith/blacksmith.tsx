@@ -1,8 +1,14 @@
 
 export function BlacksmithPage() {
     return (
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <div className="border-black">
+            <div className={"flex space-x-px space-y-px"}>
+                <div className={"h-12 w-12 bg-black"}></div>
+                <div className={"h-12 w-12 bg-black"}></div>
+                <div className={"h-12 w-12 bg-black"}></div>
+                <div className={"h-12 w-12 bg-black"}></div>
+                <div className={"h-12 w-12 bg-black"}></div>
+            </div>
+        </div>
     )
 }
